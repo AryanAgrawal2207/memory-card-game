@@ -57,13 +57,13 @@ Customize the game by modifying the content in the src folder.
    netlify deploy --dir=build --prod
 
 ## Technologies Used
-React: JavaScript library for building user interfaces
-CSS: Styling for the game layout and animations
-Web Audio API: For integrating sound effects
-Netlify: Platform for deploying and hosting the web app
+-React: JavaScript library for building user interfaces
+-CSS: Styling for the game layout and animations
+-Web Audio API: For integrating sound effects
+-Netlify: Platform for deploying and hosting the web app
 
 ## Learnings & Experiences
-React Development: Enhanced my understanding of React hooks, state management, and component-based architecture.
-Responsive Design: Learned how to create a responsive layout that works seamlessly across different screen sizes.
-Sound Integration: Gained experience in integrating sound effects using the Web Audio API, enriching the overall gameplay.
-Deployment: Acquired knowledge on deploying React applications to Netlify, ensuring smooth live performance.
+-React Development: Enhanced my understanding of React hooks, state management, and component-based architecture.
+-Responsive Design: Learned how to create a responsive layout that works seamlessly across different screen sizes.
+-Sound Integration: Gained experience in integrating sound effects using the Web Audio API, enriching the overall gameplay.
+-Deployment: Acquired knowledge on deploying React applications to Netlify, ensuring smooth live performance.
