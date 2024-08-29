@@ -45,14 +45,14 @@ Visit http://localhost:3000 in your browser to view the game.
 Flip the cards to find matching pairs within the time limit.
 Customize the game by modifying the content in the src folder.
 
-##Deployment
+## Deployment
 
-**Deploy to Netlify:**
-Install Netlify CLI if not already installed:
+1. **Deploy to Netlify:**
+   Install Netlify CLI if not already installed:
    ```bash
    npm install -g netlify-cli
 
-**Deploy the build folder:**
+2. **Deploy the build folder:**
    ```bash
    netlify deploy --dir=build --prod
 
