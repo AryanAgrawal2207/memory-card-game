@@ -11,8 +11,6 @@ This is an interactive memory card matching game built using React. The game cha
 - [Deployment](#deployment)
 - [Technologies Used](#technologies-used)
 - [Learnings & Experiences](#learnings--experiences)
-- [Contact](#contact)
-- [License](#license)
 
 ## Demo
 
@@ -32,49 +30,39 @@ Check out the live demo of the game [here](https://memory-cards-reactgame.netlif
    ```bash
    git clone https://github.com/AryanAgrawal2207/memory-card-game.git
    cd memory-card-game
-Install dependencies:
-
-bash
-Copy code
-npm install
-Run the development server:
-
-bash
-Copy code
-npm start
-Build the project for production:
-
-bash
-Copy code
-npm run build
-Usage
+2. **Install dependencies:**
+   ```bash
+   npm install
+3. **Run the development server:**
+   ```bash
+   npm start
+4. **Build the project for production:**
+   ```bash
+   npm run build
+   
+## Usage
 Visit http://localhost:3000 in your browser to view the game.
 Flip the cards to find matching pairs within the time limit.
 Customize the game by modifying the content in the src folder.
-Deployment
-Build the project:
 
-bash
-Copy code
-npm run build
-Deploy to Netlify:
+##Deployment
 
+**Deploy to Netlify:**
 Install Netlify CLI if not already installed:
+   ```bash
+   npm install -g netlify-cli
 
-bash
-Copy code
-npm install -g netlify-cli
-Deploy the build folder:
+**Deploy the build folder:**
+   ```bash
+   netlify deploy --dir=build --prod
 
-bash
-Copy code
-netlify deploy --dir=build --prod
-Technologies Used
+## Technologies Used
 React: JavaScript library for building user interfaces
 CSS: Styling for the game layout and animations
 Web Audio API: For integrating sound effects
 Netlify: Platform for deploying and hosting the web app
-Learnings & Experiences
+
+## Learnings & Experiences
 React Development: Enhanced my understanding of React hooks, state management, and component-based architecture.
 Responsive Design: Learned how to create a responsive layout that works seamlessly across different screen sizes.
 Sound Integration: Gained experience in integrating sound effects using the Web Audio API, enriching the overall gameplay.
